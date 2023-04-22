@@ -14,23 +14,12 @@
           "src/main/resources/assets/thecoolmod/models/block/test_block.json"
         ]
       }
-    },
-    {
-      "name": "TheCoolMod",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_cool_mod",
-      "metadata": {
-        "files": []
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabthe_cool_mod": "The Cool Mod",
       "block.thecoolmod.test_block": "Test Block"
     }
   },

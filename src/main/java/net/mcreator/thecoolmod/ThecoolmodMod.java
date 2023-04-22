@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.thecoolmod.init.ThecoolmodModTabs;
 import net.mcreator.thecoolmod.init.ThecoolmodModItems;
 import net.mcreator.thecoolmod.init.ThecoolmodModBlocks;
 
@@ -48,7 +49,7 @@ public class ThecoolmodMod {
 
 	public ThecoolmodMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		ThecoolmodModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ThecoolmodModBlocks.REGISTRY.register(bus);
