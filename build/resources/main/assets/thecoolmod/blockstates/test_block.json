@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thecoolmod:block/test_block"
+    }
+  }
+}

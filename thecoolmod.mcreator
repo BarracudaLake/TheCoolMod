@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecoolmod/block/TestBlockBlock.java",
+          "src/main/resources/assets/thecoolmod/blockstates/test_block.json",
+          "src/main/resources/assets/thecoolmod/models/item/test_block.json",
+          "src/main/resources/assets/thecoolmod/models/block/test_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.thecoolmod.test_block": "Test Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thecoolmod",
+    "modName": "TheCoolMod",
+    "version": "1.0.0",
+    "author": "vincent, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.thecoolmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
